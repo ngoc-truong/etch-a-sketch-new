@@ -67,10 +67,21 @@ h1 {
     background-color: var(--canvas);
     color: var(--font-color);
 }
+
 #reset-button {
     float: left;
 }
 
 #set-column-button{
     float: right;
+}
+
+#reset-button:hover {
+    transform: rotate(45deg);
+    border: 5px solid var(--gold);
+}
+
+#set-column-button:hover {
+    transform: rotate(-45deg);
+    border: 5px solid var(--gold);
 }

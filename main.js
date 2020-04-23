@@ -1,5 +1,5 @@
 
-let numOfColumns = 100;
+
 
 function createCanvas(columns){
     const container = document.querySelector("#container");
@@ -32,6 +32,7 @@ function removeCanvas(){
     });
 }
 
+let numOfColumns = 150;
 createCanvas(numOfColumns);
 hoverOverCanvas();
 
