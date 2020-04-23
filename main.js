@@ -1,6 +1,3 @@
-
-
-
 function createCanvas(columns){
     const container = document.querySelector("#container");
     container.setAttribute("style", `grid-template-columns: repeat(${columns}, 1fr)`);
