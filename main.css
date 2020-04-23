@@ -1,0 +1,76 @@
+:root {
+    --canvas: #dad6d6;
+    --hover: #a5a4a4;
+    --gold: rgb(240, 203, 109);
+    --font-color: rgb(112, 109, 109);
+    --border: rgb(204, 79, 89);
+}
+
+
+#centralize {
+    margin: 3.5em auto;
+    width: 1300px;
+}
+
+#outer-border {
+    width: 1300px;
+    height: 750px;
+    background-image: linear-gradient(to right, var(--border), rgb(231, 115, 95));
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 5em auto;
+    border-radius: 100px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+h1 {
+    color: var(--gold);
+    margin: 0;
+    padding-bottom: 0.3em;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.6em;
+}
+
+#inner-border{
+    display: inline-block;
+}
+
+#container {
+    display: grid;
+    width: 1000px;
+    margin: auto;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    padding: 0 0 5em 0;
+}
+
+.canvas {
+    background-color: var(--canvas);
+    width: 100%;
+    padding-top: 100%;
+}
+
+.hover {
+    background-color: var(--hover);
+}
+
+#set-column-button, #reset-button {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    margin-top: 25em;
+    box-shadow: 0 3px 3px rgba(109, 108, 108, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+    font-family: "Pacifico", cursive;
+    font-size: 1.2em;
+    background-color: var(--canvas);
+    color: var(--font-color);
+}
+#reset-button {
+    float: left;
+}
+
+#set-column-button{
+    float: right;
+}
