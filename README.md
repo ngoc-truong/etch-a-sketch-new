@@ -1,4 +1,4 @@
-#Etch-a-Sketch
+# Etch-a-Sketch
 
 In this project, an etch-a-sketch is build via HTML, CSS, and JavaScript. The 
 rationale is to recap DOM manipulation in plain vanilla JavaScript. 
