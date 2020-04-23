@@ -1,3 +1,5 @@
+// Functions 
+
 function createCanvas(columns){
     const container = document.querySelector("#container");
     container.setAttribute("style", `grid-template-columns: repeat(${columns}, 1fr)`);
@@ -29,9 +31,14 @@ function removeCanvas(){
     });
 }
 
-let numOfColumns = 150;
-createCanvas(numOfColumns);
+
+// Initialize a starting canvas
+
+createCanvas(150);
 hoverOverCanvas();
+
+
+// Event listeners
 
 const resetButton = document.querySelector("#reset-button");
 resetButton.addEventListener("click", (e) => {
