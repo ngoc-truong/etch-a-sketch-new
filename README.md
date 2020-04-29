@@ -7,9 +7,11 @@ The goal of this project was to recap how to manipulate the DOM via JavaScript a
 This project is part of [the Odin Project](https://www.theodinproject.com/lessons/etch-a-sketch-project),
 an open source curriculum to learn full stack web development.
 
+### [Click here to see app](https://htmlpreview.github.io/?https://github.com/ngoc-truong/etch-a-sketch-new/blob/master/index.html)
+
+![alt text](https://raw.githubusercontent.com/ngoc-truong/etch-a-sketch-new/master/Screenshot_2020-04-23%20Etch-a-Sketch.png)
+
 ## Challenges
 - One challenge was to create the canvas with divs using only javascript. 
 - In addition, since I did not want a square canvas, I had to figure out how to create a canvas in landscape format. 
 
-## Screenshot of finished app
-![alt text](https://raw.githubusercontent.com/ngoc-truong/etch-a-sketch-new/master/Screenshot_2020-04-23%20Etch-a-Sketch.png)
